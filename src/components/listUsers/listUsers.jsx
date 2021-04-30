@@ -7,7 +7,7 @@ export default class ListUsers extends Component {
         users: []
     };
 
-
+//pega as informações 
     componentDidMount() {
         Axios.get("https://www.mocky.io/v2/5d531c4f2e0000620081ddce")
             .then(response => {
@@ -17,6 +17,7 @@ export default class ListUsers extends Component {
             });
 
     };
+// mostra as informações
     render() {
         const { users } = this.state;
         return users.map(user => (

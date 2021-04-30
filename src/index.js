@@ -3,18 +3,16 @@ import ReactDOM from 'react-dom';
 //import reportWebVitals from './reportWebVitals';
 
 
-//import { BrowserRouter, Switch, Router } from 'react-router-dom'
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import ListUsers from './components/listUsers/listUsers'
 
 
 ReactDOM.render(
-  //<BrowserRouter>
-  //  <Switch>
-  //    <Router>
-        <ListUsers />
-  //    </Router>
-  //  </Switch>
-  //</BrowserRouter>
+  <BrowserRouter>
+    <Switch>
+      <Route path="/" component={ListUsers} />
+    </Switch>
+  </BrowserRouter>
   ,document.getElementById('root')
 );
 
