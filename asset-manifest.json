@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/app-pagamento/static/css/main.8610e331.chunk.css",
-    "main.js": "/app-pagamento/static/js/main.f599406e.chunk.js",
-    "main.js.map": "/app-pagamento/static/js/main.f599406e.chunk.js.map",
+    "main.js": "/app-pagamento/static/js/main.87f82ba1.chunk.js",
+    "main.js.map": "/app-pagamento/static/js/main.87f82ba1.chunk.js.map",
     "runtime-main.js": "/app-pagamento/static/js/runtime-main.1e4d66b9.js",
     "runtime-main.js.map": "/app-pagamento/static/js/runtime-main.1e4d66b9.js.map",
-    "static/js/2.2cddb101.chunk.js": "/app-pagamento/static/js/2.2cddb101.chunk.js",
-    "static/js/2.2cddb101.chunk.js.map": "/app-pagamento/static/js/2.2cddb101.chunk.js.map",
+    "static/js/2.765b73b4.chunk.js": "/app-pagamento/static/js/2.765b73b4.chunk.js",
+    "static/js/2.765b73b4.chunk.js.map": "/app-pagamento/static/js/2.765b73b4.chunk.js.map",
     "index.html": "/app-pagamento/index.html",
     "static/css/main.8610e331.chunk.css.map": "/app-pagamento/static/css/main.8610e331.chunk.css.map",
-    "static/js/2.2cddb101.chunk.js.LICENSE.txt": "/app-pagamento/static/js/2.2cddb101.chunk.js.LICENSE.txt"
+    "static/js/2.765b73b4.chunk.js.LICENSE.txt": "/app-pagamento/static/js/2.765b73b4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1e4d66b9.js",
-    "static/js/2.2cddb101.chunk.js",
+    "static/js/2.765b73b4.chunk.js",
     "static/css/main.8610e331.chunk.css",
-    "static/js/main.f599406e.chunk.js"
+    "static/js/main.87f82ba1.chunk.js"
   ]
 }
