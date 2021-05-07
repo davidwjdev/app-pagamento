@@ -1,28 +1,21 @@
-import React, { Component } from 'react';
+import React from 'react';
+import './modal.css';
+   
 
-export default  class modal extends Component {
-    state={
-        showModal: false
-    };
+  const Modal = ({ handleClose, show, children }) => {
+    const showHideClassName = show ? "modal modal-show" : "modal modal-hide";
+    return (
+      <div className={ showHideClassName }>
+        <div className="modal-title">
+          Pagamento para 
+        </div>
+        <div className="modal-body">
+          <input className="button-pay" type="button" value="Pagar" onClick={handleClose} />
+          <input className="button-pay" type="button" value="Cancela" onClick={handleClose} />
+        </div>
+      </div>
+    );
+  };
 
-    handleOpenModal = this.handleOpenModal.bind(this);
-    handleCloseModal = this.handleCloseModal.bind(this);
-
-    handleOpenModal(){
-        this.setState({ showModal: true});
-    }
-
-    handleCloseModal(){
-        this.setState({ showModal: false});
-    }
-
-    render(){
-        return (
-            <div>
-                {/* <ReactModal isOpen={this.state.showModal} content-label="Modal"/> */}
-            </div>
-        );
-    }
-};
-
+export default Modal;
 
