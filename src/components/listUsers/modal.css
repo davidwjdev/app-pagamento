@@ -14,6 +14,15 @@
   background-color: #232638;
   padding: 10px;
   color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.button-cancel{
+  width: 25px;
+  height: 25px;
+  justify-content: center;
 }
 .modal-body{
   background-color: #FFFFFF;
@@ -21,10 +30,10 @@
   flex-direction: column;
   margin: 20px;
 }
-.modal-show{
+.modal-show, .modal-show-success{
   display: block;
 }
-.modal-hide{
+.modal-hide, .modal-hide-success{
   display: none;
 }
 .modal-item{
@@ -34,5 +43,8 @@
 .modal-button{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+}
+.modal-user-name{
+  color: #DDCD42;
+  font-weight: bold;
 }
